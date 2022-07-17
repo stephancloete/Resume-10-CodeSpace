@@ -78,9 +78,14 @@ h2 {
     text-transform: uppercase;
     font-size: 120%;
 }
+h3 {
+  text-align: left;
+  font-size: 100%;
 
+}
 h5 {
-    font-size: 60%;
+    font-size: 80%;
+    font-style: italic;
 }
 
 h6 {

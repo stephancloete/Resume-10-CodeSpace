@@ -45,72 +45,42 @@
         
 
         <main class="main">
-            
-            <!--<aside>-->
-
-                <div id="sidebar">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                        <a class="navbar-brand" href="#">MENU</a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                          <span class="navbar-toggler-icon"></span>
-                        </button>
-                      
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                          <ul class="navbar-nav mr-auto">
-                            <li class="nav-item active">
-                              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item dropdown">
-                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Navigate
-                              </a>
-                              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#education">Education</a>
-                                <a class="dropdown-item" href="#experience">Experience</a>
-                                <a class="dropdown-item" href="#skills">Skills</a>
-                                <a class="dropdown-item" href="#interests">Interests</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#contact">Contact</a>
-                              </div>
-                            </li>
-                         </ul>
-                          <!--<form class="form-inline my-2 my-lg-0">
-                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                          </form>-->
-                        </div>
-                      </nav>
-                    <!--<nav>
-                        <h3>Menu</h3>
-                        <ul class="navList">
-                            <li>
-                                <a href="#education">Education</a>
-                            </li>
-                            <li>
-                                <a href="#experience">Experience</a>
-                            </li>
-                            <li>
-                                <a href="#skills">Skills</a>
-                            </li>
-                            <li>
-                                <a href="#interests">Interests</a>
-                            </li>
-                            <li>
-                                <a href="#contact">Contact</a>
-                            </li>
+            <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="#">MENU</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Navigate
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#education">Education</a>
+                            <a class="dropdown-item" href="#experience">Experience</a>
+                            <a class="dropdown-item" href="#skills">Skills</a>
+                            <a class="dropdown-item" href="#interests">Interests</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#contact">Contact</a>
+                            </div>
+                        </li>
                         </ul>
-                    </nav>
-                </div>-->
-
-            <!--</aside>-->
-
+                    </div>
+            </nav>
+            
             <article class="article">
             
         <div class="container  bg-dark text-white">
             <div class="row">
 
                 <div class="col-sm border" id="education">
-                    <h2>Education</h2>
+                    <h2 class="text-center">Education</h2>
                 
                     <h3>
                         <a href="http://codespace.co.za/">CodeSpace Academy</a>
@@ -145,7 +115,7 @@
                 </div>
             
                 <div class="col-sm border" id="experience">
-                    <h2>Experience</h2>
+                    <h2 class="text-center">Experience</h2>
                     <h3>2008-Present: Creative Director at Stellenbosch Gemeente</h3>
                     <p>
                         <ul>
@@ -164,7 +134,7 @@
                 </div>
                 
                 <div class="col-sm border" id="skills">
-                    <h2>Skills</h2>
+                    <h2 class="text-center">Skills</h2>
                     <p>
                         <ul>
                             <li>Guitarist</li>
@@ -176,7 +146,7 @@
                 </div>
 
                 <div class="col-sm border" id="interests">       
-                    <h2>Interests</h2>
+                    <h2 class="text-center">Interests</h2>
                         <p>
                             <ul>
                                 <li>Movies</li>
@@ -189,36 +159,60 @@
             </div>
         </div>
             </article>
-
+        </div>
         </main>
 
         <footer>
-            <h3 id="contact">Contact</h3>
-            <ul>
-                <a href="https://www.linkedin.com/in/stephan-cloete-854276b/" target="_blank">
-                    <img
-                        class="icons"
-                        src="./images/linkedinIcon.png"
-                        alt="Stephan Cloete LinkedIn">
-                </a>
+            <div class="container-fluid">
+            <h2 class="text-center" id="contact">Contact</h2>
 
-                <a href="https://www.facebook.com/stephancloetemusic" target="_blank">
-                    <img
-                        class="icons"
-                        src="./images/facebookIcon.png"
-                        alt="Stephan Cloete Facebook">
+            <div id="carouselExampleIndicators" class="carousel slide bg-none" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <a href="https://www.linkedin.com/in/stephan-cloete-854276b/" target="_blank">
+                        <img src="images/linkedinIcon.png" class="mx-auto d-block w-25" alt="LinkedIn Logo">
+                    </a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="https://www.facebook.com/stephancloetemusic" target="_blank">
+                        <img src="images/facebookIcon.png" class="mx-auto d-block w-25" alt="Facebook Logo">
+                    </a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="mailto: stephancloetemusic@gmail.com" target="_blank">
+                        <img src="images/gmailIcon.png" class="mx-auto d-block w-25" alt="Gmail Logo">
+                    </a>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
                 </a>
-
-                <a href="mailto: stephancloetemusic@gmail.com" target="_blank">
-                    <img
-                        class="icons"
-                        src="./images/gmailIcon.png"
-                        alt="stephancloetemusic@gmail.com">
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
                 </a>
-            </ul>
-
-            <h6>Raithby, Somerset West, South Africa | 084 511 8770</h6>
+              </div>
+            
+              <h6 class="text-center">Stellenbosch, South Africa | 084 511 8770</h6>
+        </div>
         </footer>
+
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#heading">Home</a></li>
+              <li class="breadcrumb-item"><a href="#education">Education</a></li>
+              <li class="breadcrumb-item"><a href="#experience">Experience</a></li>
+              <li class="breadcrumb-item"><a href="#skills">Skills</a></li>
+              <li class="breadcrumb-item"><a href="#interests">Interests</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Contact</li>
+            </ol>
+          </nav>
 
     </body>
 </html>
