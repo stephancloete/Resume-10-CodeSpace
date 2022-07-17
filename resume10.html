@@ -20,22 +20,25 @@
     <body>
         <header id="heading">
             
-                
-                    <picture>
-                        <img src="images/stephanguitar.jpg" class="img-fluid mx-auto d-block rounded-circle border border-dark" id="profilePhoto" alt="Profile Photo">
-                    <picture>
-
             <div class="container-fluid">
-                <div class="jumbotron jumbotron-fluid">
-                    <h1>Stephan Cloete</h1>
-                    <h6>Liturgist | Creative Director | Musician</h6>
-                    <p>Welcome to my online resumé.</p>
-                    <p>“Stephan is able to relate to and connect with people at every level
-                        and is adept at planning and strategising to create the structure for work to be done. 
-                        He looks to support others by being sincerely helpful and friendly 
-                        and making work enjoyable.”
-                    </p>
-                    <h5>Adapted extract from personality assessment conducted by "Integrative Enneagram Solutions"</h5>
+                <div class="row align-items-center jumbotron jumbotron-fluid">   
+                    <div class="col-4">
+                    <picture>
+                        <img src="images/stephanguitar.jpg" class="img-fluid mx-auto d-block rounded border border-dark" id="profilePhoto" alt="Profile Photo">
+                    <picture>
+                    </div>    
+
+                    <div class="col-8">
+                        <h1 class="display-3 text-center">Stephan Cloete</h1>
+                        <h6 class="text-center">Software Developer | Liturgist | Musician</h6>
+                        <p class="text-center">Welcome to my online resumé.</p>
+                        <p class="text-center">“Stephan is able to relate to and connect with people at every level
+                            and is adept at planning and strategising to create the structure for work to be done. 
+                            He looks to support others by being sincerely helpful and friendly 
+                            and making work enjoyable.”
+                        </p>
+                        <h5 class="text-center">Adapted extract from personality assessment conducted by "Integrative Enneagram Solutions"</h5>
+                    </div>
                 </div>
             </div>
         </header>
@@ -43,10 +46,41 @@
 
         <main class="main">
             
-            <aside>
+            <!--<aside>-->
 
                 <div id="sidebar">
-                    <nav >
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <a class="navbar-brand" href="#">MENU</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                      
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Navigate
+                              </a>
+                              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#education">Education</a>
+                                <a class="dropdown-item" href="#experience">Experience</a>
+                                <a class="dropdown-item" href="#skills">Skills</a>
+                                <a class="dropdown-item" href="#interests">Interests</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#contact">Contact</a>
+                              </div>
+                            </li>
+                         </ul>
+                          <!--<form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                          </form>-->
+                        </div>
+                      </nav>
+                    <!--<nav>
                         <h3>Menu</h3>
                         <ul class="navList">
                             <li>
@@ -66,9 +100,9 @@
                             </li>
                         </ul>
                     </nav>
-                </div>
+                </div>-->
 
-            </aside>
+            <!--</aside>-->
 
             <article class="article">
             

@@ -6,22 +6,22 @@ body {
     flex-direction: column;
 }
 
-header {
+/*header {
   text-align: center;
-}
+}*/
 
-#profilePhoto{
+/*#profilePhoto{
   width: 50%;
   height: 50%;
-}
+}*/
 
-#heading {
+/*#heading {
   font-family: sans-serif;
-  font-size: 100%;
+  font-size: 110%;
   background-color: #8e9b90ff;
   width: auto;
   padding: 1px;
-}
+}*/
 
 .main{
   display: flex;
@@ -31,27 +31,27 @@ header {
 
 }
 
-aside{
+/*aside{
   display: flex;
   flex-direction: row;
   padding: 0%;
   margin: 5px;
-}
+}*/
 
-#sidebar {
+/*#sidebar {
   text-transform: uppercase;
   text-align: center;
   background-color: #93c0a4ff;
   padding: 0%;
   height: auto;
-}
+}*/
 
-.navList {
+/*.navList {
   font-size: 90%;
   text-align: left;
   list-style-type: none;
   padding: 0%;
-}
+}*/
 
 .article{
   width: 100%;
@@ -63,7 +63,7 @@ footer {
     text-transform: uppercase;  
     background-color: #8e9b90ff;
     text-align: center;
-    width: 110%;
+    width: 100%;
     border: 3px solid rgb(144, 144, 144);
 }
 
@@ -95,40 +95,3 @@ h6 {
 p {
   font-size: 2.5vw;
 }
-
-/*
-.content {
-  text-align: left;
-  display: inline-block;
-  vertical-align:top;
-  width: 19%;
-  height: auto;
-  background-color: rgb(184, 201, 186);
-  margin: 2px;
-  padding: 2%;
-}
-
-@media screen and (max-width:768px){
-  .content{
-    display:inline-block;
-    vertical-align:top;
-    width: 45%;
-    height: auto;
-    background-color: rgb(184, 201, 186);
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-@media screen and (max-width:600px){
-  .content{
-    display: block;
-    vertical-align:top;
-    width: 98%;
-    height: auto;
-    background-color: rgb(184, 201, 186);
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-*/
